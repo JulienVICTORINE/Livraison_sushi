@@ -1,0 +1,58 @@
+/* Eviter les problèmes d'affichage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./image/restaurant_japonais.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Sirin Stencil', cursive; /* police de caractère */
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    margin: 20px auto 20px auto;
+    background-color: #f1f6f9;
+    border: 2px solid #14274E;
+    box-shadow: 2px 2px 5px #14274E;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.formulaire_ajout {
+    width: 600px;
+    height: auto;
+    margin: 25px auto 0 auto;
+    background-color: #FEBFD2;
+    border-radius: 12px;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire_titre {
+    color: #273542;
+}
+
+.formulaire_bouton {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 12px 16px;
+    border: none;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #273542;
+    color: #F0F3F5;
+    box-shadow: 1px 1px 8px #F0F3F5;
+    font-family: 'Sirin Stencil', cursive;
+}
+
+
